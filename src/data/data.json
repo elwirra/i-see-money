@@ -1,0 +1,28 @@
+[
+    {
+        "type": "1$bill",
+        "value": 100,
+        "name": "$1 bill",
+        "x": 66,
+        "y": 156,
+        "z": 0.11,
+        "image": "./us_bill.eps"
+    },
+    {
+        "type": "100$bill",
+        "value": 100000,
+        "name": "$100 bill",
+        "x": 66,
+        "y": 156,
+        "z": 0.11,
+        "image": "./us_bill.eps"
+    },
+    {
+        "type": "coin",
+        "value": "100",
+        "name": "$1 coin",
+        "d": 25,
+        "z": 2.8,
+        "image": "./us_coin.eps"
+    }
+]
