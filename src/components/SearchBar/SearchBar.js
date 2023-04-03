@@ -2,7 +2,6 @@ import './SearchBar.scss';
 import { useState } from 'react';
 
 function SearchBar({ onSubmit }) {
-  console.log(onSubmit);
   const [amount, setAmount] = useState('100000');
   const [type, setType] = useState('coin');
 
@@ -42,8 +41,7 @@ function SearchBar({ onSubmit }) {
                    onChange={handleInputChange} 
                    className="searchBar__input" />
 
-            <select value={type} 
-                    name={type}
+            <select value={type}
                     onChange={handleSelectChange} 
                     className="searchBar__select">
                 {typeOptions.map((option) => (
